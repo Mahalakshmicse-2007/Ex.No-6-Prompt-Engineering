@@ -36,6 +36,6 @@ else:
     print("\nInsight: The review tone is neutral or negative.")
 ```
 output:
-<img width="798" height="319" alt="image" src="https://github.com/user-attachments/assets/004d385c-e036-4ebd-8990-39dc8496a94a" />
+<img width="1341" height="668" alt="image" src="https://github.com/user-attachments/assets/8bd68a2e-ca2e-49fc-a986-326bcd7bbf4a" />
 
 Result: implemented successfully
