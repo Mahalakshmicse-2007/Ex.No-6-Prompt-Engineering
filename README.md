@@ -11,6 +11,31 @@ Compare outputs from different APIs.
 Analyze the response and the Output.
 
 The aim is to understand how to request help from AI tools for tasks like writing Python code, integrating with APIs, comparing outputs, and generating actionable insights.
+```
+from nltk.sentiment import SentimentIntensityAnalyzer
+import nltk
 
+nltk.download('vader_lexicon')
 
-Result: 
+# Simulated AI-generated text
+generated_text = input("  ")
+print("Generated Review:\n")
+print(generated_text)
+
+# Sentiment analysis
+sia = SentimentIntensityAnalyzer()
+sentiment = sia.polarity_scores(generated_text)
+
+print("\nSentiment Analysis:")
+print(sentiment)
+
+# Insight generation
+if sentiment['compound'] > 0:
+    print("\nInsight: The review is positive and suitable for marketing promotion.")
+else:
+    print("\nInsight: The review tone is neutral or negative.")
+```
+output:
+<img width="798" height="319" alt="image" src="https://github.com/user-attachments/assets/004d385c-e036-4ebd-8990-39dc8496a94a" />
+
+Result: implemented successfully
